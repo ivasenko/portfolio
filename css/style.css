@@ -60,7 +60,7 @@ body {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  background: #35d8b3;
+  background: radial-gradient(farthest-side ellipse at top left, #fff, #35d8b3);
   font-weight: 700; }
 
 .logo-link {
