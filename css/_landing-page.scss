@@ -59,8 +59,9 @@ body{
 	height: 70px;
 	width: 70px;
 	border-radius: 50%;
-	background: $main-color4;
+/* 	background: $main-color4; */
 	font-weight: 700;
+	background: radial-gradient(farthest-side ellipse at top left, #fff, #35d8b3);
 	
 }
 .logo-link{
