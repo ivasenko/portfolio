@@ -172,6 +172,9 @@ body {
   width: 585px;
   line-height: 35px; }
 
+.graph{
+	height: 65px; }
+
 /*----WORK---*/
 .work {
   background: rgba(53, 216, 179, 0.1);
