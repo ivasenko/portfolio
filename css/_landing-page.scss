@@ -301,19 +301,22 @@ body{
 	overflow: hidden;
 }
 .blog-img1{
-	background: url("../img/blog-img1.jpg");
+	//background: url("../img/blog-img1.jpg");
+	background: url("../img/phototime.png");
 }
 .blog-img2{
-	background: url("../img/blog-img2.jpg");
+	//background: url("../img/blog-img2.jpg");
+	background: url("../img/loom.png");
 }
 .blog-img3{
 	background: url("../img/blog-img3.jpg");
 }
 .blog-img4{
-	background: url("../img/blog-img4.jpg");
+	//background: url("../img/blog-img4.jpg");
+	background: url("../img/portfolio.png")
 }
 .blog-img5{
-	background: url("../img/blog-img5.jpg");
+	//background: url("../img/blog-img5.jpg");
 }
 .blog-img6{
 	background: url("../img/blog-img6.jpg");
@@ -331,12 +334,18 @@ body{
 	opacity: 0;
 	background: rgba(53, 216, 179, 0.1);
 	text-align: center;
+	transform: scale(0.5);
 	;
 	&:hover{
-	-webkit-animation: flash 0.5s ease-in;
-  	animation: flash 0.5s ease-in;
+	//-webkit-animation: flash 0.5s ease-in;
+  	//animation: flash 0.5s ease-in;
+
+
 	// box-shadow: 0 0 40px transparent;
 	// background: rgba(255, 165, 0, 0.5);
+		transition: 0.5s;
+		transform: scale(1);
+
 	opacity: 1;
 	color: #fff;
 	background: rgba(53, 216, 179, 0.5);
@@ -347,21 +356,21 @@ body{
 	}
 }		
 
-@keyframes flash {
-	0% {
-	-webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-	}
-  10% {
-    -webkit-transform: scale(0.3, 0.3);
-    transform: scale(0.3, 0.3);
-    // opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-  }
-}
+//@keyframes flash {
+//	0% {
+//	-webkit-transform: scale(1.0, 1.0);
+//    transform: scale(1.0, 1.0);
+//	}
+//  10% {
+//    -webkit-transform: scale(0.3, 0.3);
+//    transform: scale(0.3, 0.3);
+//    // opacity: 1;
+//  }
+//  100% {
+//    -webkit-transform: scale(1.0, 1.0);
+//    transform: scale(1.0, 1.0);
+//  }
+//}
 /*---BLOG END---*/
 
 /*----CONTACTS---*/
